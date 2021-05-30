@@ -1,0 +1,47 @@
+A LIRE
+
+/*******************************************************************************************/
+
+Site "Vers ta voie" projet titre RNCP Développeur Web 3WAcademy Paris, Madame Estelle LE MARRE, Session Live 46.
+
+/*******************************************************************************************/
+
+fichiers présents :
+- accueil.html
+- qui_sommes_nous.html
+- formation.js
+- changement_password.php
+- config.php
+- connect_via_network.php
+- connexion.php
+- deconnexion.php
+- index.php
+- inscription.php
+- inscription_traitement.php
+- landing.php
+- index.css
+- inscription.css
+- style.css
+- landing.css
+- qui_sommes_nous.css
+
+- dossier fonts
+- dossier pictures
+- dossier avec maquette (projet non finalisé en matière de design)
+
+Base de donnée exporté my sql (with phpmyadmin)
+- projet_final_3wacademy
+
+API utilisée "https://data.education.gouv.fr/explore/dataset/fr-en-formations-initiales-en-france/api/" 
+(non finalisée voir formation.js et landing.php)
+
+/*******************************************************************************************/
+
+Pour lancer le projet : réinstaller serveur php via mamp ou xamp. Intaller base de donnée sur php my admin.
+localhost/accueil.html -> s'inscrire ou se connecter
+
+Pour accéder directement à la connexion : localhost/index.php id= test mp= test
+
+    Bonne navigation.
+
+    Estelle Le Marre.

@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "DINPro";
+    src: url("htdocs/fonts/DINPro.otf") format("woff2"),
+   }
+body {
+    font-family: "DINPro", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+}
+
+/*----------------------------- /*RESPONSIVE DESKTOP*/ /*-----------------------------*/
+@media (min-width: 768px){
+/*###########################################################################*/     
+/*----------------------------- / début du HEADER DESKTOP/*-----------------------------*/
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+        header nav {
+            background-color: #4574DA;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+            header nav a img {
+                width: 4rem;
+            }
+            header nav .logo {
+                justify-self: flex-start;
+                width: max-content;
+                margin: 1rem;
+            }
+                header nav .logo img {
+                    width: unset;
+                    height: 3rem;
+                }
+            header nav .menu {
+                display: flex;
+                flex-direction: row;
+            }
+                header nav .menu a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    text-decoration: none;
+                    color:white;
+                }
+                    header nav .menu a:hover {
+                        color: #3DFBFF;
+                    }
+
+/*----------------------------- Fin du HEADER DESKTOP/*-----------------------------*/  
+/*###########################################################################*/     
+/*----------------------------- Debut du MAIN DESKTOP/*-----------------------------*/     
+    .main_accueil { /*bloc parent*/
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+        .bloc1_accueil { /*bloc enfant article texte et titre */
+            width: 50%;
+            height: auto;
+            justify-self: flex-start;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            text-align: center;
+        }
+        .bloc2_accueil { /*bloc enfant picto et s'inscrire bouton*/
+            width: 50%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+            .bloc2_accueil img {
+                width: 40%;
+                height: auto;
+            }
+            .bloc2_accueil a {
+                text-decoration: none;
+                color:#1775DE;
+            }
+                .bloc2_accueil a:hover {
+                    color: #3DFBFF;
+                }
+/*----------------------------- Fin du MAIN DESKTOP/*-----------------------------*/  
+/*###########################################################################*/     
+/*----------------------------- Debut du FOOTER DESKTOP/*-----------------------------*/        
+    footer {
+        background-color: #4574DA;
+        width:auto;
+        height: 5rem;
+    }   
+/*----------------------------- Fin du FOOTER DESKTOP/*-----------------------------*/  
+/*###########################################################################*/ 
+
+
+} /*FIN DU MEDIA SCREEN DESKTOP*/
+
+/****************************************************************************************************************/
+/*RESPONSIVE MEDIA QUERY TABLET 768PX to 1025PX*/
+/****************************************************************************************************************/
+
+@media (min-width: 768px) and (max-width: 1025px){
+
+}
+/****************************************************************************************************************/
+/*RESPONSIVE MEDIA QUERY MOBILE 540PX TO 768PX*/
+/****************************************************************************************************************/
+
+@media (min-width: 140px) and (max-width: 768px){
+    /*--------------/ début du HEADER MOBILE/*--------------*/
+        header {
+            display: flex;
+            flex-direction: column;
+            background-color: #4574DA;
+            max-width: 100%;
+        }
+            header nav {
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                text-decoration: none;
+            }
+                header nav a img {
+                    width: 50%;
+                    height: auto;
+                    justify-self: center;
+                }
+                    header nav .logo img {
+                        width: 100%;
+                        align-items: center;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                header nav .menu {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;            }
+                    header nav .menu a {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: auto;
+                        text-decoration: none;
+                        color:white;
+                    }
+                        header nav .menu a:hover {
+                           color:#3DFBFF; 
+                        }
+    /*----------------------------- Fin du HEADER MOBILE /*-----------------------------*/  
+    /*###########################################################################*/     
+    /*----------------------------- Debut du MAIN MOBILE/*-----------------------------*/     
+        .main_accueil { /*bloc parent*/
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+        }
+            .bloc1_accueil { /*bloc enfant article texte et titre */
+                width: 50%;
+                height: auto;
+                justify-self: flex-start;
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                text-align: center;
+            }
+            .bloc2_accueil { /*bloc enfant picto et s'inscrire bouton*/
+                width: 50%;
+                height: auto;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+                .bloc2_accueil img {
+                    width: 40%;
+                    display: block;
+                }
+                .bloc2_accueil a {
+                    text-decoration: none;
+                    color:white;
+                    display: block;
+                }
+                    .bloc2_accueil a:hover { 
+                        text-decoration: none;
+                        color:#3DFBFF;    
+                    }
+    /*----------------------------- Fin du HEADER MOBILE/*-----------------------------*/  
+    /*###########################################################################*/     
+    /*----------------------------- Debut du MAIN MOBILE /*-----------------------------*/     
+        .main_accueil { 
+           display: flex;
+           flex-direction:column;
+           justify-content: center;
+        }
+            .bloc1_accueil { 
+                width: 100%;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .bloc2_accueil {
+                width: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+                .bloc2_accueil img {
+                   width: 30%;
+                   height: auto;
+                   justify-self: flex-start;
+                }
+                .bloc2_accueil a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 2rem;
+                    text-decoration: none;
+                    color:#1775DE;
+                }
+                    .bloc2_accueil a:hover {
+                        color: #3DFBFF;
+                    }
+/*----------------------------- Fin du MAIN MOBILE /*-----------------------------*/     
+/****************************************************************************************************************/ 
+    } /*FIN RESPONSIVE MOBILE*/
+/****************************************************************************************************************/
+
+
+
+/*-------- index page ----------------*/
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+/*-------- END index page ----------------*/

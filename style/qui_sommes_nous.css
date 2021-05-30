@@ -1,0 +1,30 @@
+.main_qsm {
+    display: flex;
+    flex-direction: column;
+}
+    .main_qsm p {
+        text-align: center;
+        align-items: center;
+        margin-right: 2rem;
+        margin-right: 2rem;
+    }
+    .picto {
+        display: flex;
+        flex-direction: row;
+    }
+        .picto img{
+            width: 50%;
+
+        }
+        .picto a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            text-decoration: none;
+            color:#1775DE;
+        }
+            .picto a:hover {
+                color: #3DFBFF;
+            }
