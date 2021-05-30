@@ -1,0 +1,76 @@
+/*--------DEBUT LANDING PAGE------------*/
+.container_landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+    .container_landing h2{
+       justify-self: column;
+       align-items: center;
+        }
+    .container_landing input {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 3rem;
+    }
+    .container_landing p {
+        display: flex;
+        flex-direction: column;
+    }
+    .recherche {
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        width:50%;
+        background-color: #3DFBFF;
+        width:20rem;
+        height: 20rem;
+
+    }
+    .profil{
+        background-color: #4574DA;
+        border-radius: 3rem;
+        display:flex;
+        justify-content: right;
+        flex-direction: column;
+        align-items: center;
+        width:20rem;
+        height: 20rem;
+    }
+        .profil img {
+            max-width: 50%;
+            height: auto;
+            align-items: center;
+        }
+        
+        .profil p {
+            background-color: white;
+            border: medium solid#3DFBFF;
+            height: 2rem;
+        }
+    .bouton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+        .bouton a {
+            align-items: flex-start;
+            background-color:#1775DE;
+            color:white;
+        }
+        .bouton button {
+            align-items: flex-end;
+            background-color:#3DFBFF;
+            color:#1775DE;
+        }
+footer {
+    background-color: #4574DA;
+    width:auto;
+    height: 5rem;
+}
+       
+/*--------END LANDING PAGE------------*/
